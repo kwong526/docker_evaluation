@@ -1,7 +1,7 @@
 #!/bin/bash
 
-set -ex
+set -ex 
 
-touch /application/student.txt
-echo "line 1 $STUDENT_NAME" >> application/student.txt
-echo "line 2 $STUDENT_ID" >> application/student.txt
+echo -e "$STUDENT_NAME\n$STUDENT_ID" > student.txt
+
+python3 web.py
