@@ -5,9 +5,10 @@ RUN apt-get -q update -y && apt-get -q install -y gettext-base
 
 USER backend
 WORKDIR /app
-RUN python3 pip install flask
 
 COPY . .
+
+RUN python3 -m pip install flask
 
 EXPOSE 5000
 
