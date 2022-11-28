@@ -1,0 +1,8 @@
+https://github.com/kwong526/docker_evaluation
+
+dockerhub:
+
+app: https://hub.docker.com/repository/docker/clintonwong/app-frontend
+web: https://hub.docker.com/repository/docker/clintonwong/app-backend
+
+link: http://localhost:8000/
